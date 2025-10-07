@@ -1,6 +1,7 @@
 resource "aws_ecr_repository" "hello" {
-  name  = "user-service"
+  name  = "hello-service"
 }
 
 resource "aws_ecr_repository" "time" {
-  name  = "order-service"
+  name  = "time-service"
+}
